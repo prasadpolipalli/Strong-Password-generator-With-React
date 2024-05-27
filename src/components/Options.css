@@ -1,0 +1,31 @@
+/* src/components/Options.css */
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 400px;
+}
+
+.options div {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.options label {
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+.options input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.options input[type="checkbox"] {
+    margin-right: 10px;
+}
